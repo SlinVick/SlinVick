@@ -5,10 +5,13 @@
 
 }
 header{
+    text-align: right;
     width: 100%;
-    background-color: blue;
-    display:flex;
+    height: 60px;
+    background-color:white;
+    display:inline-block;
     justify-content: space-between;
+    
 }
 
 .logo-imagem{
@@ -16,6 +19,7 @@ header{
     height: 50px;
     background-color: black;
     border-radius: 25px;
+    text-align: left;
 }
 .container-logo{
     display: flex;
@@ -23,5 +27,24 @@ header{
 
 }
 .logo-texto{
-    margin-left: 20px;
+    margin-right: 20px;
+    
 }
+body{
+    background-image: linear-gradient(#4682B4,#98FB98,#2F4F4F);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+p{
+    text-align: center;
+}
+.menu li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
+
+  }
+
+
+    
