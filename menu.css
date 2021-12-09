@@ -8,4 +8,20 @@ header{
     width: 100%;
     background-color: blue;
     display:flex;
+    justify-content: space-between;
+}
+
+.logo-imagem{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-radius: 25px;
+}
+.container-logo{
+    display: flex;
+    align-items: center;
+
+}
+.logo-texto{
+    margin-left: 20px;
 }
