@@ -2,19 +2,22 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 
 }
 :root{
     text-align: center;
-    --cor--fundo:#4b4949;
-    --cor--hover:#04582e;
+    --cor--fundo:#2E8B57;
+    --cor--hover:#282c29;
     --cor--primaria:#ffffff;
+    
     
 }
 
 .dp-menu ul{
     list-style-type: none;
     padding: 0;
+    border-bottom-left-radius:25px;
 }
 
 .dp-menu ul{
@@ -33,6 +36,7 @@ display: inline-block;
 padding: 10px;
 transition: background .3s;
 height: 65px;
+
 }
 
 .dp-menu ul li a:hover{
@@ -60,7 +64,8 @@ height: 65px;
 
     
 body{
-    background-color:#98a099;
+    background-color:#000000;
+    
 }
 
 
@@ -88,7 +93,7 @@ h1{
     font-size: 35px;
 }
 
-div#contatoimg img{center: 30px; left: 50px;
+div#contatoimg img{center: 30px; right: 80px;
     position: relative; 
     max-width: 50px;
    
@@ -99,10 +104,18 @@ div#contatoimg img{center: 30px; left: 50px;
 
     }
     div#contato3img img{
-        position: relative; 
-        max-width:45px;
-        
-        
-        
+        position: relative; bottom: 105px; left:77px;
+        max-width: 45px;
 
     }
+
+    div#logo2 img{left:100px;
+        position: absolute;
+        max-width: 115px;
+        top: 0px;
+        
+    }
+    div#foto img{left:700px;
+        position: absolute;
+        max-width: 550px;
+        top: 190px;
