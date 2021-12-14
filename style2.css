@@ -7,7 +7,7 @@
 }
 :root{
     text-align: center;
-    --cor--fundo:#2E8B57;
+    --cor--fundo:#556B2F;
     --cor--hover:#282c29;
     --cor--primaria:#ffffff;
     
@@ -119,3 +119,12 @@ div#contatoimg img{center: 30px; right: 80px;
         position: absolute;
         max-width: 550px;
         top: 190px;
+    }
+
+    .footer{
+        position:absolute;
+        bottom:0;
+        width:100%;
+        color: #ffffff;
+    }
+  
