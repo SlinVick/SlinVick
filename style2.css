@@ -115,10 +115,10 @@ div#contatoimg img{center: 30px; right: 80px;
         top: 0px;
         
     }
-    div#foto img{left:700px;
+    div#foto img{left:730px;
         position: absolute;
         max-width: 550px;
-        top: 190px;
+        top: 170px;
     }
 
     .footer{
@@ -127,4 +127,38 @@ div#contatoimg img{center: 30px; right: 80px;
         width:100%;
         color: #ffffff;
     }
-  
+div#texto p{
+    position: relative; right: 185px;
+    bottom: 10px;
+    color: #F5FFFA;
+   font-size: 25px;
+   font-family: Verdana;
+}
+div#textmi p{
+    position: relative; 
+    bottom: 10px;
+    color: #F5FFFA;
+   font-size: 20px;
+   font-family: Verdana;
+}
+
+div#textmo p{
+    position: relative; 
+    bottom: 10px;
+    color: #F5FFFA;
+   font-size: 20px;
+   font-family: Verdana;    
+}
+
+div#logos img{
+left: 180px;
+    position:relative; 
+    max-width: 400px;
+}
+div#logog img{
+    left: 430px;
+    position:relative; 
+    max-width: 450px;
+    bottom:230px;    
+
+}
