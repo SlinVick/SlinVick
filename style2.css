@@ -36,6 +36,7 @@ display: inline-block;
 padding: 10px;
 transition: background .3s;
 height: 65px;
+padding-top: 20px;
 
 }
 
@@ -118,7 +119,7 @@ div#contatoimg img{center: 30px; right: 80px;
     div#foto img{left:730px;
         position: absolute;
         max-width: 550px;
-        top: 170px;
+        top: 190px;
     }
 
     .footer{
@@ -128,11 +129,17 @@ div#contatoimg img{center: 30px; right: 80px;
         color: #ffffff;
     }
 div#texto p{
-    position: relative; right: 185px;
-    bottom: 10px;
+   
     color: #F5FFFA;
    font-size: 25px;
    font-family: Verdana;
+   right:650px;
+        position: absolute;
+        max-width: 550px;
+        top: 210px;
+ 
+
+   
 }
 div#textmi p{
     position: relative; 
@@ -154,11 +161,22 @@ div#logos img{
 left: 180px;
     position:relative; 
     max-width: 400px;
+    bottom: 95px;
 }
 div#logog img{
     left: 430px;
     position:relative; 
     max-width: 450px;
-    bottom:230px;    
+    bottom:330px;    
+
+}
+div#sobre p{
+    color: #F5FFFA;
+    font-size: 30px;
+    position: relative;
+    top: 105px;
+    right: 250px;
+    
+
 
 }
